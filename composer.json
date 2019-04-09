@@ -1,0 +1,13 @@
+{
+  "name": "goldencomrades/wp-granular-demo",
+  "version": "0.0.1",
+  "autoload": {
+    "psr-4": {
+      "ColdenComrades\\WpGranularDemo\\": "src/",
+      "ColdenComrades\\WpGranularDemo\\Tests\\": "test/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5"
+  }
+}
