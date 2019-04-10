@@ -7,9 +7,12 @@ use PHPUnit\Framework\TestCase;
 
 class CarTest extends TestCase
 {
-    public function testAutoload()
+    public function testInit()
     {
+        $car = new Car();
 
-        $this->assertEquals();
+        $car->init()
+
+        $this->assertEquals($car->getStatus(), 'init');
     }
 }

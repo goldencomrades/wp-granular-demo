@@ -7,8 +7,12 @@ use PHPUnit\Framework\TestCase;
 
 class ParkTest extends TestCase
 {
-    public function testCallback()
+    public function testInit()
     {
-        $this->assertEquals($fakeRefMethod(), 'fakeRefMethod');
+        $park = new Car();
+
+        $park->init()
+
+        $this->assertEquals($park->getStatus(), 'init');
     }
 }
