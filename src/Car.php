@@ -6,9 +6,11 @@ use Javanile\Granular\Bindable;
 
 class Car extends Bindable
 {
-    protected static $bindings = [
+    public static $bindings = [
         'action:init' => 'init'
     ];
+
+    protected $status;
 
     public function init()
     {

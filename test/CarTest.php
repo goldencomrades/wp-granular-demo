@@ -11,7 +11,7 @@ class CarTest extends TestCase
     {
         $car = new Car();
 
-        $car->init()
+        $car->init();
 
         $this->assertEquals($car->getStatus(), 'init');
     }

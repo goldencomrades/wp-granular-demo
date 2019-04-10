@@ -9,10 +9,18 @@ class ParkTest extends TestCase
 {
     public function testInit()
     {
-        $park = new Car();
+        $park = new Park();
 
-        $park->init()
+        $park->init();
 
         $this->assertEquals($park->getStatus(), 'init');
+    }
+
+    public function testFooter()
+    {
+        $park = new Park();
+
+        $this->assertInternalType('string', $park->adminFooterText());
+        $this->assertInternalType('string', $park->updateFooter());
     }
 }
