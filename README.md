@@ -1,5 +1,7 @@
 # WP Granular Demo
 
+[![Build Status](https://travis-ci.org/goldencomrades/wp-granular-demo.svg?branch=master)](https://travis-ci.org/goldencomrades/wp-granular-demo)
+
 ## Get started
 
 Type the follow commands on project terminal
