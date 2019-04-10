@@ -3,9 +3,12 @@
   "version": "0.0.1",
   "autoload": {
     "psr-4": {
-      "ColdenComrades\\WpGranularDemo\\": "src/",
-      "ColdenComrades\\WpGranularDemo\\Tests\\": "test/"
+      "GoldenComrades\\WpGranularDemo\\": "src/",
+      "GoldenComrades\\WpGranularDemo\\Tests\\": "test/"
     }
+  },
+  "require": {
+    "javanile/granular": "*"
   },
   "require-dev": {
     "phpunit/phpunit": "^6.5"

@@ -3,7 +3,7 @@ version: '3.1'
 services:
 
   wordpress:
-    image: wordpress
+    image: wordpress:5.1.1
     ports:
       - 8888:80
     environment:
@@ -24,4 +24,18 @@ services:
       - MYSQL_ROOT_PASSWORD=wordpress
     ports:
       - 8889:8080
-    restart: "no"
+
+  composer:
+    image: composer
+    user: 1000:1000
+    volumes:
+      - ./:/app
+
+  phpunit:
+    image: phpunit/phpunit:6.5
+    user: 1000:1000
+    volumes:
+      - ./:/app
+
+volumes:
+  mysql:
