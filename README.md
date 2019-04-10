@@ -1,6 +1,9 @@
 # WP Granular Demo
 
 [![Build Status](https://travis-ci.org/goldencomrades/wp-granular-demo.svg?branch=master)](https://travis-ci.org/goldencomrades/wp-granular-demo)
+[![codecov](https://codecov.io/gh/goldencomrades/wp-granular-demo/branch/master/graph/badge.svg)](https://codecov.io/gh/goldencomrades/wp-granular-demo)
+
+Sample plugin using WP Granular approch.
 
 ## Get started
 
