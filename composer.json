@@ -11,6 +11,6 @@
     "javanile/granular": "*"
   },
   "require-dev": {
-    "phpunit/phpunit": "^6.5"
+    "phpunit/phpunit": "^6.5.3"
   }
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6ca0e1f38dd6c477c5bf1ce85c1b84f0",
+    "content-hash": "303b1dde27eb693fa618f1204fcdac36",
     "packages": [
         {
             "name": "javanile/granular",
